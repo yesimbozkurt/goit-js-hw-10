@@ -4,14 +4,23 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
-.timerContainer {
-    margin-top: 48px;
+.timer-container {
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    justify-content: center;
+    border: 1px solid rgb(245, 195, 245);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(245, 227, 245);
+    color: rgb(78, 56, 78);
+    width: 350px;
+
 }
 
 .timerInputContainer {
@@ -19,6 +28,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    justify-content: center;
 }
 
 .timerButton {
@@ -35,8 +45,8 @@
 }
 
 .timerButton:hover {
-    border-color: #646cff;
-    background-color: #646cff;
+    border-color: plum;
+    background-color: rgb(159, 109, 159);
 }
 
 .timerButton:focus,
